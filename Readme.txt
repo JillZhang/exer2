@@ -13,7 +13,7 @@ twitter_credentials = {
 
 Step 2:
 Create the database “tcount” and create the table “tweetcount” in postgres by run the script create_table.py
-Step 3 :
+Step 3:
 Please cd to the extweetwordcount folder. Then enter “Sparse run”. The application will start to collect tweets.
 Step 4:
 Press Control+C when you want to stop the collecting. All the data will be loaded into the tweetwordcount table. You can use the psycopg2 to access the data.
